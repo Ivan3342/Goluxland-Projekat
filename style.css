@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #dbdbdb;
+}
+
+#naslov {
+	text-align: center;
+	font-size: 64px;
+	font-family: Quicksand;
+	background: linear-gradient(90deg, #a3dbca, #cadf88);
+	margin-top: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+#slika {
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	
+}
+
+#opis {
+	font-family: Quicksand;
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+#o1 {
+	font-family: Quicksand;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#materijali {
+	margin-top: auto;
+	margin-left: 10px;
+}
+
+#tekst {
+	font-family: Quicksand;
+	font-weight: 250;
+	color: rgb(12, 44, 12);
+	margin-left: 10px;
+}
+#container {
+	height: 200px;
+	width: 550px;
+	background-color: #616161;
+	margin: 0 auto;
+	border: 5px solid #98d39d;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	border-radius: 2%;
+	
+}
+
+#input {
+	height: 25px;
+	width: 250px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	justify-self: center;
+	align-self: center;
+}
+#staklo {
+	height: 25px;
+	width: 250px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
+	align-self: center;
+}
+#plastika {
+	height: 25px;
+	width: 250px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	justify-self: center;
+	align-self: center;
+}
+#papir {
+	height: 25px;
+	width: 250px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	justify-self: center;
+	align-self: center;
+}
+
+#output {
+	height: 25px;
+	width: 250px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	justify-self: center;
+	align-self: center;
+}
+
+#txt {
+	font-family: Quicksand;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+header {
+	background: linear-gradient(90deg, #a3dbca, #cadf88);
+	padding: 20px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-family: Quicksand;
+	font-size: 18px;
+	border-radius: 2px;
+	
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+header a {
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#copyright {
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: bold;
+}
+.opis {
+	text-align: center;
+	font-family: Quicksand;
+	font-size: 24px;
+	margin-left: 10px;
+}
+#kont {
+	text-align: center;
+}
