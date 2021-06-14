@@ -1,4 +1,4 @@
-# projekat
-goluxland
+# Projekat
+Goluxland
 
-brojevi telefona su izmisljeni
+Brojevi telefona su izmisljeni.
